@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'SampleB';
+
+    clickHappened($event: MouseEvent) {
+        console.log($event);
+    }
 }
