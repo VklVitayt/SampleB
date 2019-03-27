@@ -1,0 +1,6 @@
+<div>
+    <h1>Status codes</h1>
+    <p>List of status codes:</p>
+    <p *ngFor="let code of statusCodes" (click)="showStatusCode(code)">{{code.code}}</p>
+</div>
+<app-status-code [statusCode]="childStatusCode"></app-status-code>
