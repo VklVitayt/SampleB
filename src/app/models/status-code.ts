@@ -1,5 +1,4 @@
 import {ObjectType} from './object-type';
-import {tick} from '@angular/core/testing';
 
 export class StatusCode {
     id: number;
