@@ -8,7 +8,7 @@ import {StatusCode} from '../../models/status-code';
   styleUrls: ['./status-codes.component.scss']
 })
 export class StatusCodesComponent implements OnInit {
-    private readonly statusCodes: StatusCode[];
+    private statusCodes: StatusCode[];
     childStatusCode = new StatusCode();
 
 
